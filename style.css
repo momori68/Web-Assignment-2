@@ -1,23 +1,16 @@
+* {
+    margin: 0;
+}
+
+/* ***************** Header ***************** */
+
 .logo {
     display: flex;
     justify-content: center;
 }
 
-h1 {
-    flex: 1;
 
 
-}
-
-.wraper {
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-
-    justify-content: center;
-
-}
 
 .main-nav {
     background: #990;
@@ -29,8 +22,7 @@ h1 {
 
 
 
-    /*    flex: start;
-    */
+
     justify-content: center;
 }
 
@@ -44,19 +36,50 @@ h1 {
     background: #900;
 }
 
-.content {
-    flex: 3;
-    padding-right: 100px;
+/* ***************** Main ***************** */
+
+.wraper {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
 }
 
-.imgs {
-    display: inline-block;
-    margin: 0 0;
+.main-container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
 }
 
-.sidebar {
-    background: #eee;
-    flex: 1.5;
-    padding-left: 15px;
-    order: -1;
+aside {
+    flex: 1;
+    background: rgb(78, 169, 230);
 }
+
+section {
+    background: blanchedalmond;
+    flex: 4;
+}
+
+img {
+    width: 100%;
+}
+
+.big-image {
+    width: 100%;
+}
+
+.smalls-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.small-image {
+    flex: 1;
+}
+
+/* ***************** Footer ***************** */
+footer {}
