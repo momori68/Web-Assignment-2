@@ -1,0 +1,62 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    flex: 1;
+
+
+}
+
+.wraper {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
+.main-nav {
+    background: #989;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    flex: 2;
+
+
+
+
+    /*    flex: start;
+    */
+    justify-content: center;
+}
+
+.main-nav a {
+    color: white;
+    padding: 20px 40px;
+}
+
+.main-nav a:hover,
+.active {
+    background: #900;
+}
+
+.content {
+    flex: 3;
+    padding-right: 100px;
+}
+
+.imgs {
+    display: inline-block;
+    margin: 0 0;
+}
+
+.sidebar {
+    background: #eee;
+    flex: 1.5;
+    padding-left: 15px;
+    order: -1;
+}
